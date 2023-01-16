@@ -1,0 +1,10 @@
+<disk type='file' device='disk'>
+    <driver name='qemu' type='qcow2'/>
+    <source file='/home/enriquetaso/test-qemu-img-snapshot/volume-7488dfde-b639-44d4-8df0-34da6f616b2d' index='2'/>
+    <backingStore/>
+    <target dev='vdb' bus='virtio'/>
+    <encryption format='luks'>
+    <secret type='passphrase' uuid='f981dd17-143f-45bc-88e6-111111111111'/>
+    </encryption>
+    <alias name='virtio-disk0'/>
+</disk>

@@ -1,0 +1,7 @@
+<secret ephemeral='no' private='yes'>
+  <uuid>f981dd17-143f-45bc-88e6-111111111111</uuid>
+  <description>LUKS Secret</description>
+  <usage type='volume'>
+    <volume>/home/enriquetaso/test-qemu-img-snapshot/volume-7488dfde-b639-44d4-8df0-34da6f616b2d</volume>
+  </usage>
+</secret>
